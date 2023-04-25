@@ -1,0 +1,65 @@
+/* Estilo de la página */
+body {
+    background-color: #fce4ec;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo del encabezado */
+  header {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  header h1 {
+    color: #e91e63;
+    font-size: 40px;
+  }
+  
+  /* Estilo de la sección de biografía */
+  .bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .bio img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 50px;
+  }
+  
+  .bio p {
+    font-size: 24px;
+  }
+  
+  /* Estilo de la galería */
+  .gallery {
+    margin-top: 50px;
+  }
+  
+  .gallery h2 {
+    color: #e91e63;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .card {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilo del navbar
+  
