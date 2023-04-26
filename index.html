@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cumpleaños</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-lW/7pTJdN/LEJg6cKPI6Xb0rU+d1NZvEbLxwuGQy0FCPfMevE6vTDcqKq3ZOfXBMVlG2Q2vT0RkW8OBoOy7zng==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/2d9b74a861.js" crossorigin="anonymous"></script>
   
   <style>
     /* Estilos personalizados */
@@ -23,6 +25,10 @@
     /* Texto */
     p {
       color: #666666;
+    }
+    #logo {
+      height: 50px;
+      width: 50px;
     }
 
     /* Botones */
@@ -58,6 +64,11 @@
   height: 200px; /* Altura fija para todas las imágenes */
   object-fit: cover; /* Hace que la imagen cubra todo el espacio sin deformarse */
 }
+#img-principal{
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
 
   </style>
 </head>
@@ -66,17 +77,17 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
+      <a class="navbar-brand" href="#"><img src="/imgs/pastel-de-cumpleanos.png" alt="Logo" id="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#foto-parrafo">Feliz Cumple</a>
+            <a class="nav-link" href="#foto-parrafo">Feliz Cumple😄</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#galeria">Galería</a>
+            <a class="nav-link" href="#galeria">Galería 🖼️</a>
           </li>
         </ul>
       </div>
@@ -102,11 +113,11 @@
     <div class="container py-5">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <img src="foto.png" class="img-fluid rounded border" alt="Foto de cumpleañero">
+          <img src="/imgs/foto principal.jpg" id="img-principal" class="img-fluid rounded border" alt="Foto de cumpleañero">
         </div>
         <div class="col-md-6">
           <h3>¡Feliz Cumpleaños!</h3>
-          <p>Queremos desearte un maravilloso día lleno de amor, felicidad y muchas
+          <p>Espero que tengas un feliz Cumpleaños.
               </p>
               </div>
               </div>
@@ -119,30 +130,53 @@
                   <div class="row">
                     <div class="col-md-4 mb-4">
                       <div class="card">
-                        <img src="/imgs/donald trump.jpg" class="card-img-top img-fluid" alt="...">
+                        <img src="/imgs/foto 1.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Descripción de la imagen 1.</p>
+                          <p class="card-text">Forno bravo</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="card">
-                        <img src="/imgs/el caribe.jpeg" class="card-img-top img-fluid" alt="...">
+                        <img src="/imgs/foto 2.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Descripción de la imagen 2.</p>
+                          <p class="card-text">Forno bravo</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="card">
-                        <img src="ruta-de-la-imagen-3.jpg" class="card-img-top" alt="...">
+                        <img src="/imgs/foto 3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Descripción de la imagen 3.</p>
+                          <p class="card-text">the crime.</p>
                         </div>
                       </div>
                     </div>
                     <!-- Agrega más cards aquí si deseas mostrar más imágenes -->
-                    
+                    <div class="col-md-4 mb-4">
+                      <div class="card">
+                        <img src="/imgs/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Chefpeper.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card">
+                        <img src="/imgs/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Forno bravo</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card">
+                        <img src="/imgs/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Cine.</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </section>
